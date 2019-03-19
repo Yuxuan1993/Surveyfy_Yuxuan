@@ -20,7 +20,8 @@ var questionRoutes   = require("./routes/questions"),
     indexRoutes       = require("./routes/index")
 
 // Setting and Connecting Database
-mongoose.connect("mongodb://localhost/surveyfy_db")
+//mongoose.connect("mongodb://localhost/surveyfy_db")
+mongoose.connect("mongodb://heroku_czlp64q7@ds117816.mlab.com:17816/heroku_czlp64q7")
 
 // Setting and Connecting Database
 
